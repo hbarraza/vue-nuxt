@@ -1,0 +1,12 @@
+- npm init --yes
+- npm install nuxt
+    - crear dentro del package.json un script para trabajar con nuxt. ejemplo: "dev": "nuxt"
+    - para correr proyecto: npm run dev
+- crear carpeta pages que es donde arranca nuxt. lo que haya acá cargará.
+- crear carpeta config para almacenar archivos de configuracion de la app.
+- npm install axios - para llamadas apirest
+- bulma - framework css, elegante. minimalista: npm install bulma
+    - para integrarlo en el proyecto -> crear en la raiz archivo: nuxt.config.js y dentro poner la configuracion para montar css desde la libreria bulma.
+-rutas: dentro de pages, crear una carpeta con la subruta que se prefiera. ej: para localhost/albums/{id} crear la carpeta albums y dentro crear _id.vue Si se quisiera hacer una ruta para localhost/albums/about bastaria con crear un archivo about.vue
+- instalar vue-router para trabajar con rutas, capturar parametros en rutas, etc
+- para agregar un archivo css global, generar archivo en assets/style.css, luego agregarlo en la configuracion nuxt.config.js, reiniciar servidor: npm run dev

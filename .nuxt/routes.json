@@ -1,0 +1,16 @@
+[
+  {
+    "name": "albums-id",
+    "path": "/albums/:id?",
+    "component": "C:\\\\Users\\\\herma\\\\Desktop\\\\vue-nuxt\\\\pages\\\\albums\\\\_id.vue",
+    "chunkName": "pages/albums/_id",
+    "_name": "_69868dc2"
+  },
+  {
+    "name": "index",
+    "path": "/",
+    "component": "C:\\\\Users\\\\herma\\\\Desktop\\\\vue-nuxt\\\\pages\\\\index.vue",
+    "chunkName": "pages/index",
+    "_name": "_639f9a84"
+  }
+]
